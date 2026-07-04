@@ -8,6 +8,7 @@ export default defineConfig({
     tanstackRouter({
       target: "react",
       autoCodeSplitting: true,
+      routeFileIgnorePattern: "\\.styles\\.ts$",
     }),
     react(),
   ],
